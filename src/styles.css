@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.background-image {
+  background-image: url('./Images/city-79\ 2.png'); 
+  background-repeat: no-repeat; 
+  background-size: 90%; 
+  background-position: center; 
+}
+
+.App {
+  text-align: center;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+}
+
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h1, h2 {
+  margin: 10px 0;
+}
+.App {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  text-align: center; 
+  font-family: Arial, sans-serif; 
+}
+
+.content-container {
+  padding-top: 60px; 
+  height: 80vh; 
+ 
+}

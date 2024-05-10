@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import WeatherDashboard from './Components/WeatherDashboard';
+import './styles.css';
 
 function App() {
+  const [backgroundVisible, setBackgroundVisible] = useState(true); 
+
+  const hideBackground = () => {
+    setBackgroundVisible(false); 
+  };
+
+  const backgroundClass = backgroundVisible ? 'background-image' : ''; 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`App ${backgroundClass}`}> 
+      <WeatherDashboard onHideBackground={hideBackground} /> 
     </div>
   );
 }

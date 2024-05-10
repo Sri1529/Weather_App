@@ -1,0 +1,121 @@
+.weather-container {
+    border-radius: 15px; 
+    padding: 20px;
+    margin: 20px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    background-size: cover; 
+    background-position: center; 
+  }
+   
+  .temperature-wrapper {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .temperature-box {
+    background-color: #ffcc00; 
+    border-radius: 15px; 
+    padding: 10px; 
+    text-align: center; 
+    line-height: 0.5; 
+    margin-top: 5px; 
+    width: 100px; 
+    height: 100px; 
+  }
+  
+  .temperature-type {
+    text-align: center; 
+    font-size: 28px; 
+    color: #555; 
+    margin-top: 10px; 
+  }
+  
+  .additional-info-container {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; 
+    margin-top: 20px; 
+  }
+  
+  .info-box {
+    background-color: #cce7ff; 
+    border-radius: 50px; 
+    padding: 10px; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 84px; 
+    height: 136px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-box p {
+    text-align: center; 
+    line-height: 2.0; 
+    margin-top: 5px; 
+    
+    
+  }
+  .climate {
+    color: #A1A1A1; 
+    font-family: 'Arial', sans-serif; 
+  }
+
+ 
+.temperature-box.Cold {
+  background-color: #87CEEB; 
+}
+
+.temperature-box.Cold {
+  background-color: #87CEEB; 
+}
+
+.temperature-box.Moderate {
+  background-color: #99CC99; 
+}
+
+.temperature-box.Warm {
+  background-color: #FFCC66; 
+}
+
+.temperature-box.Hot {
+  background-color: #FF6666; 
+}
+
+
+.info-box.Cold {
+  background-color: #F6FAFF; 
+}
+
+.info-box.Cold {
+  background-color: #F6FAFF; 
+}
+
+.info-box.Moderate {
+  background-color: #FAFFF6; 
+}
+
+.info-box.Warm {
+  background-color: #FFFFE7; 
+}
+
+.info-box.Hot {
+  background-color: #FFF3F3; 
+}
+
+.temperature-box {
+  font-family: 'Nunito Sans', sans-serif; 
+  color: #f9f9f9; 
+}
+
+.temperature-type {
+  font-family: 'Nunito Sans', sans-serif; 
+  color: #f9f9f9; 
+}
+.temp{
+  font-weight: 600;
+  font-size: 28px;
+}
+
