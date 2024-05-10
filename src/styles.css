@@ -11,7 +11,16 @@ body {
   background-position: center; 
 }
 
+
+.new-background-image { 
+  background-image: url('./Images/BG\ image.jpg'); /* Path to your new background image */
+  background-repeat: no-repeat; 
+  background-size: 100%; 
+  background-position: center; 
+}
+
 .App {
+  
   text-align: center;
   display: flex; 
   flex-direction: column; 
@@ -19,7 +28,6 @@ body {
   align-items: center; 
   height: 100vh; 
 }
-
 
 input {
   padding: 10px;
